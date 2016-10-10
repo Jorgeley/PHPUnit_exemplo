@@ -10,12 +10,11 @@
  * @author Jorgeley <jorgeley@gmail.com>
  */
 
-namespace PHPUnit_exemplo;
+namespace PHPUnit_exemplo\tests\PHPUnit_exemplo;
 
-require_once '../src/PHPUnit_exemplo/Game.php';
-use PHPUnit_Framework_TestCase;
-use PHPUnit_exemplo\Game;
 use Exception;
+use PHPUnit_Framework_TestCase;
+use PHPUnit_exemplo\src\PHPUnit_exemplo\Game;
 
 class GameTest extends PHPUnit_Framework_TestCase{
     protected $gameTest;
@@ -25,7 +24,7 @@ class GameTest extends PHPUnit_Framework_TestCase{
     }
     
     public function testGameIsStantiated(){
-        $this->assertInstanceOf('PHPUnit_exemplo\Game', $this->gameTest);
+        $this->assertInstanceOf('PHPUnit_exemplo\src\PHPUnit_exemplo\Game', $this->gameTest);
     }
     
     public function testGetTitle(){

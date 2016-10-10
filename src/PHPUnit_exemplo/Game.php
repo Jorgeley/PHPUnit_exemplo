@@ -1,5 +1,5 @@
 <?php
-namespace PHPUnit_exemplo;
+namespace PHPUnit_exemplo\src\PHPUnit_exemplo;
 
 use Exception;
 

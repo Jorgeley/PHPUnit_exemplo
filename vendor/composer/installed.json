@@ -636,67 +636,6 @@
         ]
     },
     {
-        "name": "phpunit/phpunit-mock-objects",
-        "version": "3.3.1",
-        "version_normalized": "3.3.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-            "reference": "03500345483e1e17b52e2e4d34a89c9408ab2902"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/03500345483e1e17b52e2e4d34a89c9408ab2902",
-            "reference": "03500345483e1e17b52e2e4d34a89c9408ab2902",
-            "shasum": ""
-        },
-        "require": {
-            "doctrine/instantiator": "^1.0.2",
-            "php": "^5.6 || ^7.0",
-            "phpunit/php-text-template": "^1.2",
-            "sebastian/exporter": "^1.2"
-        },
-        "conflict": {
-            "phpunit/phpunit": "<5.4.0"
-        },
-        "require-dev": {
-            "phpunit/phpunit": "^5.4"
-        },
-        "suggest": {
-            "ext-soap": "*"
-        },
-        "time": "2016-10-04 11:03:26",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.2.x-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "classmap": [
-                "src/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "authors": [
-            {
-                "name": "Sebastian Bergmann",
-                "email": "sb@sebastian-bergmann.de",
-                "role": "lead"
-            }
-        ],
-        "description": "Mock Object library for PHPUnit",
-        "homepage": "https://github.com/sebastianbergmann/phpunit-mock-objects/",
-        "keywords": [
-            "mock",
-            "xunit"
-        ]
-    },
-    {
         "name": "phpunit/php-timer",
         "version": "1.0.8",
         "version_normalized": "1.0.8.0",
@@ -1267,18 +1206,79 @@
         ]
     },
     {
-        "name": "phpunit/phpunit",
-        "version": "5.6.0",
-        "version_normalized": "5.6.0.0",
+        "name": "phpunit/phpunit-mock-objects",
+        "version": "3.4.0",
+        "version_normalized": "3.4.0.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/sebastianbergmann/phpunit.git",
-            "reference": "a7f2db56518e50ab92f28f739810dfad2f223b6b"
+            "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
+            "reference": "238d7a2723bce689c79eeac9c7d5e1d623bb9dc2"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/a7f2db56518e50ab92f28f739810dfad2f223b6b",
-            "reference": "a7f2db56518e50ab92f28f739810dfad2f223b6b",
+            "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/238d7a2723bce689c79eeac9c7d5e1d623bb9dc2",
+            "reference": "238d7a2723bce689c79eeac9c7d5e1d623bb9dc2",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/instantiator": "^1.0.2",
+            "php": "^5.6 || ^7.0",
+            "phpunit/php-text-template": "^1.2",
+            "sebastian/exporter": "^1.2"
+        },
+        "conflict": {
+            "phpunit/phpunit": "<5.4.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^5.4"
+        },
+        "suggest": {
+            "ext-soap": "*"
+        },
+        "time": "2016-10-09 07:01:45",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.2.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Sebastian Bergmann",
+                "email": "sb@sebastian-bergmann.de",
+                "role": "lead"
+            }
+        ],
+        "description": "Mock Object library for PHPUnit",
+        "homepage": "https://github.com/sebastianbergmann/phpunit-mock-objects/",
+        "keywords": [
+            "mock",
+            "xunit"
+        ]
+    },
+    {
+        "name": "phpunit/phpunit",
+        "version": "5.6.1",
+        "version_normalized": "5.6.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sebastianbergmann/phpunit.git",
+            "reference": "60c32c5b5e79c2248001efa2560f831da11cc2d7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/60c32c5b5e79c2248001efa2560f831da11cc2d7",
+            "reference": "60c32c5b5e79c2248001efa2560f831da11cc2d7",
             "shasum": ""
         },
         "require": {
@@ -1315,7 +1315,7 @@
             "ext-xdebug": "*",
             "phpunit/php-invoker": "~1.1"
         },
-        "time": "2016-10-06 15:20:39",
+        "time": "2016-10-07 13:03:26",
         "bin": [
             "phpunit"
         ],
